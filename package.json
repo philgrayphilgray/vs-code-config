@@ -1,0 +1,12 @@
+{
+  "name": "vs-code-config",
+  "version": "1.0.0",
+  "description": "A simple repo to keep track of my current VS Code Config and Extensions for consistency as I move around from device to device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "bin/update-script"
+  },
+  "author": "",
+  "license": "ISC"
+}

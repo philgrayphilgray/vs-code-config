@@ -1,0 +1,44 @@
+{
+  // 4/25/2018, https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708
+  // "eslint.enable": false,
+  // "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.check.npmIsInstalled": false,
+  "window.zoomLevel": 2,
+  "workbench.sideBar.location": "right",
+  // When enabled, Emmet abbreviations are expanded when pressing TAB.
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.singleQuote": true,
+  "gitlens.keymap": "alternate",
+  "liveServer.settings.donotVerifyTags": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "element-helper.version": "2.3",
+  "editor.formatOnType": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  // 4/25/2018, https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true
+}
