@@ -2,17 +2,19 @@
 
 A central repo for the VS Code config and extensions I use on my primary machine.
 
-To update:
+These shell scripts are peculiar to my MacOS machines.
+
+To take a snapshot of the current extensions/config:
 
 ```bash
-npm run update
+npm run snapshot
 ```
 
-This will execute the following bash command:
+To overwrite the current user config and install all the extensions from the snapshot:
 
 ```bash
-code --list-extensions | xargs -L 1 echo code --install-extension  > extensions.txt && cp  ~/Library/Application\ Support/Code/User/settings.json ./
+npm run install
 ```
 
-TODO: Use relative OS paths.
-TODO: Add an install script for quick syncing other machines.
+* TODO: Use relative OS paths.
+* TODO: Filter for only `@enabled` extensions, disable all extensions before install, and re-enable upon install.

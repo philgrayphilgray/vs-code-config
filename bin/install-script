@@ -1,0 +1,4 @@
+#/bin/sh
+set -e
+
+cat ./settings.json > ~/Library/Application\ Support/Code/User/settings.json && source ./bin/extensions

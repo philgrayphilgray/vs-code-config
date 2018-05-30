@@ -1,0 +1,5 @@
+#/bin/sh
+
+set -e
+
+rm ./bin/extensions && echo "#/bin/sh\nset -e \n" > ./bin/extensions && code --list-extensions | xargs -L 1 echo code --install-extension  >> ./bin/extensions && cp  ~/Library/Application\ Support/Code/User/settings.json ./ && chmod +x ./bin/extensions

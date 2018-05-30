@@ -4,7 +4,7 @@
   // "editor.formatOnSave": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "typescript.check.npmIsInstalled": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "workbench.sideBar.location": "right",
   // When enabled, Emmet abbreviations are expanded when pressing TAB.
   "emmet.triggerExpansionOnTab": true,
@@ -40,5 +40,6 @@
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "editor.formatOnSave": true,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "gitlens.historyExplorer.enabled": true
 }
