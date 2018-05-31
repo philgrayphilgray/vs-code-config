@@ -1,3 +1,6 @@
+NOTE: A few hours after pushing this, I found a VS Code extension that has all the features I wanted and more for settings/extension syncing: (https://github.com/shanalikhan/code-settings-sync)[https://github.com/shanalikhan/code-settings-sync].
+
+
 # VS Code Config and Extensions
 
 A central repo for the VS Code config and extensions I use on my primary machine.
